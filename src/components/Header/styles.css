@@ -1,0 +1,62 @@
+.container {
+  margin: 50px 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_container {
+  display: flex;
+  /* margin-right: 200px; */
+  align-items: center;
+}
+
+.logo_container h1 {
+  text-align: center;
+}
+
+#vector {
+  width: 100px;
+  height: 100px;
+  padding-right: 15px;
+}
+
+#logo-title {
+  background-image: linear-gradient(180deg, #c0b7e8 0%, #8176af 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ul {
+  display: flex;
+  gap: 42px;
+}
+
+li {
+  text-decoration: none;
+  font-weight: 700;
+  list-style: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.contact_buttom,
+.join_buttom {
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 154px;
+  height: 48px;
+  border-radius: 40px;
+  border: none;
+}
+
+.contact_buttom {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+}
+
+.join_buttom {
+  margin-left: 38px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}
