@@ -23,7 +23,7 @@ const Section = () => {
               Lectus mauris eros in vitae .
             </p>
             <div className="button_container_section">
-              <button className="join_buttom">BUILD YOUR WORLD</button>
+              <button className="button button_big">BUILD YOUR WORLD</button>
               <img src={Arrow} alt="" />
             </div>
           </div>

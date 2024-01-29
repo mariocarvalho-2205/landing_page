@@ -8,3 +8,49 @@
   font-family: 'Montserrat', sans-serif;
   color: #fff;
 }
+
+.img_container img {
+  width: 524px;
+  height: 455px;
+  border-radius: 100px 100px 100px 240px;
+  border: 16px solid rgba(0, 0, 0, 0.13);
+}
+
+.icons_center h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.icons_center p {
+  font-size: 14px;
+}
+
+.global {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.button {
+  font-weight: 700;
+  height: 48px;
+  text-transform: uppercase;
+  border-radius: 40px;
+  border: none;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}
+
+.button_big{
+  width: 214px;
+}
+
+.button_small{
+  width: 155px;
+}
+
+.button:hover{
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  transition: 0.5s;
+}

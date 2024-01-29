@@ -24,8 +24,8 @@ const Header = () => {
         </nav>
       </div>
       <div className="button_container">
-        <button className="contact_buttom">Contact US</button>
-        <button className="join_buttom">Join Hydra</button>
+        <button className="button button_small">Contact US</button>
+        <button className="button button_small">Join Hydra</button>
         {/* <Buttom id="contact_buttom" title="Contact US" />
         <Buttom id="join_buttom" title="Join Hydra" /> */}
       </div>
