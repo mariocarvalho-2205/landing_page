@@ -30,6 +30,7 @@
 .sectionTwo_top p {
     width: 652px;
     height: 98px;
+    text-align: justify;
 }
 
 .section2_botton {
@@ -50,6 +51,7 @@
 .section2_text p {
     width: 630px;
     height: 228px;
+    text-align: justify;
 }
 
 .img2_container img {
