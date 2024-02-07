@@ -1,5 +1,6 @@
 import Header from "./components/Header/index";
 import Section from './components/Section'
+import SectionThree from './components/SectionThree';
 import SectionTwo from './components/SectionTwo'
 import './index.css'
 
@@ -10,6 +11,7 @@ function App() {
         <Header />
         <Section />
         <SectionTwo />
+        <SectionThree />
       </div>
     </>
   );
