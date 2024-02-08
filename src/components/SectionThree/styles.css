@@ -1,6 +1,7 @@
 .sectionThree_container {
   margin: 94px 84px;
   display: inline-block;
+  max-width: 1273px;
 }
 
 .h2_img {
@@ -56,11 +57,15 @@
   text-align: justify;
 }
 
+.card_container {
+  display: flex;
+  gap:13px;
+}
+
 .card {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 35px; */
 }
 
 .card1 {
