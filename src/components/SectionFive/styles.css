@@ -83,8 +83,7 @@
   height: 159px;
   background-image: linear-gradient(251deg, #C0B7E8 12.87%, #8176AF 89.33%);
   border-radius: 50%;
-  box-shadow: -1px -1
-  px 5px 22px rgba(0,0,0,0.45);
+  box-shadow: -1px -1px 5px 22px rgba(0,0,0,0.45);
 }
 
 .ball_Sec_Five h2 {
