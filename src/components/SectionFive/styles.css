@@ -1,4 +1,4 @@
-.sectionFive {
+.sectionFive_container {
   margin: 94px 84px;
   display: inline-block;
   max-width: 1273px;
@@ -33,4 +33,61 @@
   width: 652px;
   height: 98px;
   text-align: justify;
+}
+
+.sectionFive_text h2:nth-child(2) {
+  font-weight: 300;
+}
+
+.sectionFive_text {
+  margin-top: 47px;
+  margin-bottom: 47px;
+}
+
+.sectionFive_text p {
+  width: 630px;
+  height: 228px;
+  text-align: justify;
+}
+
+.sectionFive_bottom {
+  background-color: red;
+  height: 287px;
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+}
+
+.lineH {
+  position: relative;
+}
+
+.lineH img{
+
+  max-width: 1273px;
+}
+
+.balls_Section_Five {
+  max-width: 1273px;
+  height: 187px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ball_Sec_Five {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 159px;
+  height: 159px;
+  background-image: linear-gradient(251deg, #C0B7E8 12.87%, #8176AF 89.33%);
+  border-radius: 50%;
+  box-shadow: -1px -1
+  px 5px 22px rgba(0,0,0,0.45);
+}
+
+.ball_Sec_Five h2 {
+  color: #343045;
+  font-size: 64px;
 }
