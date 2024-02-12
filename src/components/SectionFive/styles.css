@@ -1,9 +1,7 @@
 .sectionFive_container {
-  margin: 94px 84px;
+  margin: 94px 94px;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  justify-content: center;
   max-width: 1273px;
 }
 
@@ -87,7 +85,7 @@
   height: 158px;
   background-image: linear-gradient(251deg, #C0B7E8 12.87%, #8176AF 89.33%);
   border-radius: 50%;
-  box-shadow: -1px -1px 5px 22px rgba(0,0,0,0.45);
+  box-shadow: -1px -1px 5px 22px rgba(0,0,0,0.35);
   z-index: 1;
   
 }
