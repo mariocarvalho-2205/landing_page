@@ -1,0 +1,82 @@
+.sectionSix_Container {
+	margin: 0 80px;
+	width: 1275px;
+	height: 1008px;
+	border-radius: 100px;
+	background: radial-gradient(50% 50% at 50% 50%, #403a5f 0%, #211e2e 100%);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sectionSix_Title_Div {
+	padding: 40px;
+	text-align: center;
+}
+
+.sectionSix_Title_Div h2,
+.sectionSix_Title_Div h3 {
+	font-size: 36px;
+}
+.sectionSix_Title_Div h2 {
+	font-weight: 700;
+}
+
+.sectionSix_Title_Div h3 {
+    margin-top: 21px;
+	font-weight: 300;
+}
+
+.sectionSix_form_container {
+	margin: 35px auto 84px auto;
+	max-width: 1058px;
+}
+
+.sectionSix_form_container .sectionSix_Form {
+	display: grid;
+	grid-template-areas: "firstName lastName" "email phoneNumber" "subject subject" "textarea textarea" "button button";
+    row-gap: 33px;
+    column-gap: 10px;
+}
+
+.firstName {
+	grid-area: firstName;
+}
+.lastName {
+	grid-area: lastName;
+}
+.email {
+	grid-area: email;
+}
+.phoneNumber {
+	grid-area: phoneNumber;
+}
+.subject {
+	grid-area: subject;
+}
+.textarea {
+	grid-area: textarea;
+}
+
+.button {
+    grid-area: button;
+}
+
+.sectionSix_Form input,
+.sectionSix_Form textarea {
+	background-color: transparent;
+	border-radius: 40px;
+	border: 2px solid #fff;
+}
+
+
+.sectionSix_Form input::placeholder,
+.sectionSix_Form textarea::placeholder {
+    margin-left: 42px;
+}
+
+.sectionSix_Form input {
+	height: 70px;
+}
+
+.sectionSix_Form button {
+    margin: 30px auto;
+}
