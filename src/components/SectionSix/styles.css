@@ -26,7 +26,7 @@
 }
 
 .sectionSix_form_container {
-	margin: 35px auto 84px auto;
+	margin: 0 auto 84px auto;
 	max-width: 1058px;
 }
 
@@ -67,10 +67,15 @@
 	border: 2px solid #fff;
 }
 
+.sectionSix_Form textarea {
+    height: 210px;
+}
 
 .sectionSix_Form input::placeholder,
 .sectionSix_Form textarea::placeholder {
-    margin-left: 42px;
+    padding: 27px 42px;
+    font-weight: 400;
+    color: #fff;
 }
 
 .sectionSix_Form input {
@@ -78,5 +83,5 @@
 }
 
 .sectionSix_Form button {
-    margin: 30px auto;
+    margin: 30px auto ;
 }
