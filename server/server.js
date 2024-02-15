@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const formDataRouter = require('./routes/formData');
 
 // rootadmin / admin
+// mongodb+srv://<username>:<password>@cluster0.we4or8k.mongodb.net/?retryWrites=true&w=majority
 
 const app = express();
 
