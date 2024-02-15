@@ -57,17 +57,18 @@ const Footer = () => {
         <div className="border_img">
           <img src={Border} alt="" />
         </div>
+
         <div className="footer_socialize footer_div">
           <div className="socialize_title">
             <h3>Socialize if Hydra</h3>
           </div>
           <div className="socialize_icons">
-            <img src={Facebook} alt="" />
-            <img src={Twitter} alt="" />
-            <img src={Linkedin} alt="" />
-            <img src={Youtube} alt="" />
-            <img src={Instagram} alt="" />
-            <img src={Pinterest} alt="" />
+            <a href=""><img src={Facebook} alt="" /></a>
+            <a href=""><img src={Twitter} alt="" /></a>
+            <a href=""><img src={Linkedin} alt="" /></a>
+            <a href=""><img src={Youtube} alt="" /></a>
+            <a href=""><img src={Instagram} alt="" /></a>
+            <a href=""><img src={Pinterest} alt="" /></a>
           </div>
           <div className="socialize_buttom">
             <button className="button button_big">Build Your World</button>
@@ -77,7 +78,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="copyright">
-        <h3>Copyright</h3>
+        <h3>2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED </h3>
       </div>
     </div>
   );

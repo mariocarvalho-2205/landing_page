@@ -29,9 +29,28 @@
     height: 185px;
 }
 
-.border_img {
+.border_img img{
     /* align-items: center; */
     /* justify-content: center; */
-    height: 166px;
+    height: 196px;
+    border-radius: 100%;
+}
+.footer_socialize {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+
+.socialize_icons a img {
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+}
+
+.copyright {
+    font-size: 12px;
+    letter-spacing: 1.82px;
 }
 
