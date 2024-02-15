@@ -4,8 +4,9 @@ import SectionThree from './components/SectionThree';
 import SectionTwo from './components/SectionTwo'
 import SectionFour from './components/SectionFour';
 import SectionFive from "./components/SectionFive";
-import './index.css'
 import SectionSix from './components/SectionSix';
+import Footer from "./components/Footer";
+import './index.css'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <SectionFour />
         <SectionFive />
         <SectionSix />
+        <Footer />
       </div>
     </>
   );
