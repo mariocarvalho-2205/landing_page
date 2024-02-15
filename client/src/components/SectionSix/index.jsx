@@ -12,11 +12,11 @@ const SectionSix = () => {
 
 	const sendData = async (data) => {
 		try {
-			// const response = await axios.post('http://localhost:3000/api/formData', data)
-			// console.log(response.data)
-			console.log(data);
+			console.log("antes de passar pelo axios" + data)
+			const response = await axios.post('http://localhost:3000/api/formData', data)
+			console.log(response.data + " apos passar pelo axios")
 		} catch (error) {
-			console.error(error);
+			console.error(error + "erro no fronte depois do axios");
 		}
 	};
 
