@@ -1,6 +1,8 @@
 import Vector from "../../assets/Vector.svg";
-import Logo from "../../assets/logo.svg";
-import Buttom from "../Buttom/Buttom";
+import { Link } from "react-router-dom";
+// import Login from "../../components/LoginPage"
+// import Logo from "../../assets/logo.svg";
+// import Buttom from "../Buttom/Buttom";
 import "./styles.css";
 
 import React from "react";
@@ -25,7 +27,7 @@ const Header = () => {
       </div>
       <div className="button_container">
         <button className="button button_small">Contact US</button>
-        <button className="button button_small">Join Hydra</button>
+        <Link to="/login"><button className="button button_small" >Join Hydra</button></Link>
         {/* <Buttom id="contact_buttom" title="Contact US" />
         <Buttom id="join_buttom" title="Join Hydra" /> */}
       </div>
