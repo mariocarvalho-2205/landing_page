@@ -8,13 +8,15 @@ const SectionSix = () => {
 		register,
 		handleSubmit,
 		formState: { errors },
+		reset
 	} = useForm();
 
 	const sendData = async (data) => {
 		try {
-			console.log("antes de passar pelo axios" + data)
+			//console.log("antes de passar pelo axios" + data)
 			const response = await axios.post('http://localhost:3000/api/formData', data)
-			console.log(response.data + " apos passar pelo axios")
+			reset()
+			//console.log(response.data + " apos passar pelo axios")
 		} catch (error) {
 			console.error(error + "erro no fronte depois do axios");
 		}
