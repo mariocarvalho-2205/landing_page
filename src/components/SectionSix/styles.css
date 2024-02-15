@@ -65,21 +65,19 @@
 	background-color: transparent;
 	border-radius: 40px;
 	border: 2px solid #fff;
+	color: #fff;
+	outline: none;
+	padding: 27px;
 }
 
 .sectionSix_Form textarea {
-    height: 210px;
+    height: 170px;
 }
 
 .sectionSix_Form input::placeholder,
 .sectionSix_Form textarea::placeholder {
-    padding: 27px 42px;
     font-weight: 400;
     color: #fff;
-}
-
-.sectionSix_Form input {
-	height: 70px;
 }
 
 .sectionSix_Form button {
