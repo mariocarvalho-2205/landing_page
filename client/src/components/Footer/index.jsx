@@ -1,5 +1,6 @@
 import React from "react";
 import Vector from "../../assets/vector.svg";
+import Facebook from "../../assets/facebook.svg"
 import "./styles.css";
 
 const Footer = () => {
@@ -27,7 +28,7 @@ const Footer = () => {
             <h3>Socialize if Hydra</h3>
           </div>
           <div className="socialize_icons">
-            <img src="" alt="" />
+            <img src={Facebook} alt="" />
             <img src="" alt="" />
             <img src="" alt="" />
             <img src="" alt="" />
