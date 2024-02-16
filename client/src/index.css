@@ -9,13 +9,6 @@
   color: #fff;
 }
 
-.img_container img {
-  width: 524px;
-  height: 455px;
-  border-radius: 100px 100px 100px 240px;
-  border: 16px solid rgba(0, 0, 0, 0.13);
-}
-
 .icons_center h2 {
   font-size: 24px;
   font-weight: 700;

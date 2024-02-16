@@ -10,7 +10,7 @@ const Section = () => {
   return (
     <>
       <section id='section1'className="section_container">
-        <div className="container">
+        <div className="section_content">
           <div className="text_container">
             <h1>
               <span className="title_span_section">Dive</span> Into The Depths
