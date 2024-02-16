@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 // import Logo from "../../assets/logo.svg";
 // import Buttom from "../Buttom/Buttom";
 import "./styles.css";
+import Hamburguer from '../../assets/Hamburger-Button.svg'
 
 import React from "react";
 
@@ -25,6 +26,9 @@ const Header = () => {
           </ul>
         </nav>
       </div>
+      <div className="hamburguer">
+          <img src={Hamburguer} alt="" />
+        </div>
       <div className="button_container">
         <button className="button button_small">Contact US</button>
         <Link to="/login"><button className="button button_small" >Join Hydra</button></Link>

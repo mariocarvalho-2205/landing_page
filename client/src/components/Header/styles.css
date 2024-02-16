@@ -27,6 +27,10 @@
   -webkit-text-fill-color: transparent;
 }
 
+.hamburguer {
+  display: none;
+}
+
 ul {
   display: flex;
   gap: 42px;
@@ -53,4 +57,30 @@ li a:hover {
 
 .button_small {
   margin-left: 38px;
+}
+
+@media (max-width: 390px) {
+  #vector {
+    width: 69px;
+    height: 69px;
+  }
+  .logo_container h1{
+    font-size: 14px;
+    margin-right: 85px;
+  }
+  .hamburguer {
+    display: flex;
+    margin-left: 35px;
+    margin-right: 10px;
+  }
+  .container {
+    flex-direction: row;
+    margin-left: 45px;
+  }
+  .nav,
+  .button_container {
+    display: none;
+  }
+
+
 }
