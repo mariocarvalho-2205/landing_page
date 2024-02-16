@@ -18,10 +18,10 @@ const Header = () => {
       <div className="nav">
         <nav>
           <ul>
-            <li>About</li>
-            <li>Services</li>
-            <li>Technologies</li>
-            <li>How To</li>
+            <li><a href="#section2">About</a></li>
+            <li><a href="#section3">Services</a></li>
+            <li><a href="#section4">Technologies</a></li>
+            <li><a href="#section5">How To</a></li>
           </ul>
         </nav>
       </div>

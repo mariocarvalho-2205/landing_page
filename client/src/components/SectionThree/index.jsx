@@ -6,7 +6,7 @@ import '../../../src/index.css'
 
 const SectionThree = () => {
   return (
-    <div className="sectionThree_container">
+    <div id='section3' className="sectionThree_container">
       <div className="sectionThree_top">
         <div className="sectionThree_text">
           <h2>WHY BUILD</h2>

@@ -11,7 +11,7 @@ import Prop4 from '../../assets/4_icons_sectio_four.png'
 
 const SectionFour = () => {
   return (
-    <div className="sectionFour">
+    <div id='section4' className="sectionFour">
       <div className="sectionFour_content">
         <div className="sectionFour_text">
           <h2 className='title'>TECHNOLOGIES & HARDWARE</h2>

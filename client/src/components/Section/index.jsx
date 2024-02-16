@@ -9,7 +9,7 @@ import Mail from "../../assets/mail.svg";
 const Section = () => {
   return (
     <>
-      <section className="section_container">
+      <section id='section1'className="section_container">
         <div className="container">
           <div className="text_container">
             <h1>

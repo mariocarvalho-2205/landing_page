@@ -6,7 +6,7 @@ import Image2 from '../../assets/image2.png'
 
 const SectionTwo = () => {
   return (
-    <div className="sectionTwo_container">
+    <div id='section2' className="sectionTwo_container">
       <div className="sectionTwo_top">
         <div className="sectionTwo_text">
           <h2>INTRODUCTION</h2>

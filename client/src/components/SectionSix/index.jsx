@@ -27,7 +27,7 @@ const SectionSix = () => {
 	};
 
 	return (
-		<div className="sectionSix_Container" onSubmit={handleSubmit(onSubmit)}>
+		<div id='section6' className="sectionSix_Container" onSubmit={handleSubmit(onSubmit)}>
 			<div className="sectionSix_Title_Div">
 				<h2 className="sectionSix_title_H2">Join Hydra</h2>
 				<img src={Line} alt="line_separation" />

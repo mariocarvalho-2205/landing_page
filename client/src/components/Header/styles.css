@@ -40,8 +40,17 @@ li {
   text-transform: uppercase;
 }
 
+
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #ffffff95;
+  transition: 0.2s;
+}
+
 .button_small {
   margin-left: 38px;
 }
-
-
