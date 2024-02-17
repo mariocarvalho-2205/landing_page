@@ -10,7 +10,7 @@ const LoginPage = () => {
 
 				<form className="login_form">
 					<input type="text" name="user" placeholder="User" />
-					<input type="text" name="password" placeholder="Password" />
+					<input type="password" name="password" placeholder="Password" />
 					<button className="button button_small" type="submit">
 						Login
 					</button>
