@@ -9,6 +9,10 @@
   color: #fff;
 }
 
+/* rolagem scroll suave*/
+html {
+  scroll-behavior: smooth;
+}
 /* remove a barra de rolagem */
 body::-webkit-scrollbar {
   display: none;
