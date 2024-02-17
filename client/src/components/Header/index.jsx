@@ -35,11 +35,7 @@ const Header = () => {
         {/* <Buttom id="contact_buttom" title="Contact US" />
         <Buttom id="join_buttom" title="Join Hydra" /> */}
       </div>
-      <ul className="voltar_button">
-        <li>
-          <a href="#header_container">Voltar</a>
-        </li>
-      </ul>
+    
     </div>
   );
 };

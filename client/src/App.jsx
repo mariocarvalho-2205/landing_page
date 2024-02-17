@@ -26,6 +26,11 @@ function App() {
         <SectionFive />
         <SectionSix />
         <Footer />
+        <ul className="voltar_button">
+        <li>
+          <a href="#header_container">Voltar</a>
+        </li>
+      </ul>
       </div>
     </>
   );

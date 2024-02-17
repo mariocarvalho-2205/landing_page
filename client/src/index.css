@@ -57,3 +57,8 @@ body::-webkit-scrollbar {
   background: transparent;
   transition: .5s;
 }
+
+.voltar_button {
+  position: fixed;
+  bottom: 10px;
+}
