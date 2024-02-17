@@ -10,7 +10,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="container">
+    <div className="container" id="header_container">
       <div className="logo_container">
         <img id="vector" src={Vector} alt="" />
         {/* <img id="logo-title" src={Logo} alt="" /> */}
@@ -35,6 +35,11 @@ const Header = () => {
         {/* <Buttom id="contact_buttom" title="Contact US" />
         <Buttom id="join_buttom" title="Join Hydra" /> */}
       </div>
+      <ul className="voltar_button">
+        <li>
+          <a href="#header_container">Voltar</a>
+        </li>
+      </ul>
     </div>
   );
 };
