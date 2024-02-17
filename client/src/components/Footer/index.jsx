@@ -1,5 +1,5 @@
 import React from "react";
-import Vector from "../../assets/vector.svg";
+import Vector from "../../assets/Vector.svg";
 import Facebook from "../../assets/facebook.svg";
 import Twitter from "../../assets/twitter.svg";
 import Linkedin from "../../assets/linkedin.svg";
