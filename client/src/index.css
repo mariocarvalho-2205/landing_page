@@ -9,6 +9,11 @@
   color: #fff;
 }
 
+/* remove a barra de rolagem */
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .icons_center h2 {
   font-size: 24px;
   font-weight: 700;
