@@ -36,7 +36,7 @@ const SectionSix = () => {
 				</h3>
 			</div>
 			<div className="sectionSix_form_container">
-				<form className="sectionSix_Form">
+				<form className="sectionSix_Form" id="form">
 					<input
 						className="input_form firstName"
 						type="text"

@@ -30,7 +30,7 @@ const Header = () => {
           <img src={Hamburguer} alt="" />
         </div>
       <div className="button_container">
-        <button className="button button_small">Contact US</button>
+      <a href="#form"><button className="button button_small">Contact US</button></a>
         <Link to="/login"><button className="button button_small" >Join Hydra</button></Link>
         {/* <Buttom id="contact_buttom" title="Contact US" />
         <Buttom id="join_buttom" title="Join Hydra" /> */}
