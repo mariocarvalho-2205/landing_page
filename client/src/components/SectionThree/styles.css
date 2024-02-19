@@ -140,5 +140,14 @@
     gap: 40px;
   }
 
+  .card_img {
+    margin-bottom: -30px;
+  }
+  .card_text {
+    margin-top: -30px;
+  }
 
+  .card_button button {
+    width: 250px;
+  }
 }
