@@ -109,11 +109,13 @@
         width: 310px;
         height: 246px;
         font-size: 12px;
+        line-height: 1.5;
     }
 
     .section2_text>button {
-        margin-top: -30px;
-        margin-left: -380px;
+        margin-top: 40px;
+        margin-left: -420px;
+        width: 290px;
     }
 
 
