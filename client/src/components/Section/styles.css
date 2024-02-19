@@ -142,7 +142,8 @@
   
   .icons {
     margin: 0;
-    height: 78px;
+    margin-left: 10px;
+    height: 68px;
     gap: 30px;
   }
   .icons h2 {

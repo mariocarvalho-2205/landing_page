@@ -18,6 +18,12 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+@media (max-width: 390px){
+  body {
+    margin-left: -30px;
+  }
+}
+
 .icons_center h2 {
   font-size: 24px;
   font-weight: 700;
