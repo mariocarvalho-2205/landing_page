@@ -41,14 +41,14 @@
 }
 
 .ball {
- position: absolute;
- bottom: -45px;
- border:10px solid rgba(14, 14, 14, 0.32);
- border-radius: 50%;
- display: flex;
- align-items: center;
- justify-content: center;
- cursor: pointer;
+  position: absolute;
+  bottom: -45px;
+  border: 10px solid rgba(14, 14, 14, 0.32);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .ball1 {
@@ -70,5 +70,40 @@
 
 @media (max-width: 390px) {
 
-  
+  .sectionFour_content {
+    margin-left: -855px;
+    margin-top: -40px;
+  }
+
+  .sectionFour_content img {
+    width: 338px;
+    height: 163px;
+  }
+
+  .ball {
+    display: none;
+  }
+
+  .img4 {
+    border-radius: 60px;
+  }
+
+  .sectionFour_text {
+    margin-top: -20px;
+  }
+
+  .title {
+    font-size: 16px;
+    line-height: 2.2;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .sectionFour_bottom {
+    margin-left: 240px;
+    gap: 90px;
+  }
+
 }
