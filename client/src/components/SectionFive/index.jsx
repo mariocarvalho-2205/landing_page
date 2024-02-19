@@ -12,7 +12,7 @@ const SectionFive = () => {
         <div className="sectionFive_text">
           <h2>HOW WE BUILD</h2>
           <div className="h2_img">
-            <h2>WITH HYDRA VR?</h2>
+            <h2 className="h22">WITH HYDRA VR?</h2>
             <img src={ArrowBig} alt="" />
           </div>
         </div>
