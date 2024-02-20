@@ -14,9 +14,10 @@ const Footer = () => {
   return (
     <div className="footer_Container">
       <div className="footer">
-        <div className="footer_logo footer_div">
+        <div className="footer_logo footer_div ">
           <img src={Vector} alt="" />
         </div>
+
         <div className="border_img">
           <img src={Border} alt="" />
         </div>
@@ -78,7 +79,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="copyright">
-        <h3>2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED </h3>
+        <h3>2023 © HYDRA LANDING PAGE BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED </h3>
       </div>
     </div>
   );

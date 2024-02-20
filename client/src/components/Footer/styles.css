@@ -1,56 +1,91 @@
 .footer_Container {
-    margin: 0 auto;
-    max-width: 1278px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 0 auto;
+  max-width: 1278px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer {
-    margin: 128px 83px 58px 83px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  margin: 128px 83px 58px 83px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer_Container a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .footer_logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .footer_logo img {
-    width: 185px;
-    height: 185px;
+  width: 185px;
+  height: 185px;
 }
 
-.border_img img{
-    /* align-items: center; */
-    /* justify-content: center; */
-    height: 196px;
-    border-radius: 100%;
+.border_img img {
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 196px;
+  border-radius: 100%;
 }
 .footer_socialize {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
-
 .socialize_icons a img {
-    width: 32px;
-    height: 32px;
-    margin-right: 20px;
+  width: 32px;
+  height: 32px;
+  margin-right: 20px;
 }
 
 .copyright {
-    font-size: 12px;
-    letter-spacing: 1.82px;
+  font-size: 12px;
+  letter-spacing: 1.82px;
 }
 
+@media (max-width: 390px) {
+  .footer_Container {
+    text-align: center;
+    align-items: center;
+    margin-left: 60px;
+    width: 300px;
+}
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_logo {
+    margin-bottom: 56px;
+  }
+
+  .socialize_title {
+    margin-bottom: 30px;
+  }
+
+  .footer_services,
+  .footer_faq,
+  .border_img {
+    display: none;
+  }
+  .socialize_icons a img {
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+
+.copyright h3 {
+    width: 270px;
+    text-align: center;
+    line-height: 2;
+}
+}
