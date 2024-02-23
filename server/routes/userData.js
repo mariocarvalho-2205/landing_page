@@ -1,5 +1,5 @@
 const express = require('express');
-const UserData = require('../models/UserData');
+const UserData = require('./userData');
 
 const router = express.Router();
 
