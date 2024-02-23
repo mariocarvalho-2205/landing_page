@@ -18,10 +18,10 @@ const SectionFour = () => {
           <h2 className='subtitle'>USED BY HYDRA VR.</h2>
         </div>
         <img className="img4" src={Img4} alt="" />
-        <buttom className="ball">
+        <button className="ball">
           <img className='ball1' src={Ball} alt="" />
           <img className='ball2' src={Arrow} alt="" />
-        </buttom>
+        </button>
       </div>
       <div className="sectionFour_bottom">
         <img src={Prop1} alt="" />

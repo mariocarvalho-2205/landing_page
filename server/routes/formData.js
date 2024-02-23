@@ -35,7 +35,7 @@ router.post('/register', async (req, res) => {
 router.get('/test/register', async (req, res) => {
   try {
     const hashedPassword = await bcrypt.hash('password', 10); // Aqui você pode usar a senha que desejar
-    const user = new User({ username: 'testuserMario', password: hashedPassword });
+    const user = new User({ username: 'Mario', password: 1234567890 });
     await user.save();
     res.send('Teste bem-sucedido! Usuário registrado.');
   } catch (error) {
