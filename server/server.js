@@ -4,6 +4,8 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const formDataRouter = require('./routes/formData');
+const formData = require('./models/FormData');
+const user = require('./models/User');
 
 // rootadmin / admin
 // mongodb+srv://<username>:<password>@cluster0.we4or8k.mongodb.net/?retryWrites=true&w=majority
