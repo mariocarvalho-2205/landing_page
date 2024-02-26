@@ -1,4 +1,3 @@
-import React from 'react'
 import '../SectionThree/styles.css'
 import ArrowBig from '../../assets/arrowbig.svg'
 import Card1 from '../../assets/card1.png'
