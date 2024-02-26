@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
-import "../SectionThree/styles.css";
-import ArrowBig from "../../assets/arrowbig.svg";
-import Card1 from "../../assets/card1.png";
-import "../../../src/index.css";
+import '../SectionThree/styles.css'
+import ArrowBig from '../../assets/arrowbig.svg'
+import Card1 from '../../assets/card1.png'
+import '../../../src/index.css'
 
 const SectionThree = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -66,55 +65,23 @@ const SectionThree = () => {
                 </div>
               </div>
             </div>
-          ) : (
-            <>
-              <div
-                className={`card slider-item ${
-                  activeCard === 0 ? "active" : ""
-                }`}
-              >
-                <div className="card1">
-                  <div className="card_img">
-                    <img src={Card1} alt="" />
-                  </div>
-                  <div className="card_h2">
-                    <h2>SIMULATION 1</h2>
-                  </div>
-                  <div className="card_text">
-                    <p>
-                      Vitae sapien pellentesque habitant morbi nunc. Viverra
-                      aliquet porttitor rhoncus libero justo laoreet sit amet
-                      vitae.
-                    </p>
-                  </div>
-                  <div className="card_button">
-                    <button className="button button_small">TRY IT NOW</button>
-                  </div>
-                </div>
+
+          </div>
+          <div className="card">
+            <div className='card1'>
+              <div className='card_img'>
+                <img src={Card1} alt="" />
               </div>
-              <div
-                className={`card slider-item ${
-                  activeCard === 1 ? "active" : ""
-                }`}
-              >
-                <div className="card1">
-                  <div className="card_img">
-                    <img src={Card1} alt="" />
-                  </div>
-                  <div className="card_h2">
-                    <h2>SIMULATION 2</h2>
-                  </div>
-                  <div className="card_text">
-                    <p>
-                      Vitae sapien pellentesque habitant morbi nunc. Viverra
-                      aliquet porttitor rhoncus libero justo laoreet sit amet
-                      vitae.
-                    </p>
-                  </div>
-                  <div className="card_button">
-                    <button className="button button_small">TRY IT NOW</button>
-                  </div>
-                </div>
+              <div className='card_h2'>
+                <h2>SIMULATION</h2>
+              </div>
+              <div className='card_text'>
+                <p>Vitae sapien pellentesque habitant morbi
+                  nunc. Viverra aliquet  porttitor rhoncus
+                  libero justo laoreet sit amet vitae.</p>
+              </div>
+              <div className='card_button'>
+                <button className='button button_small'>TRY IT NOW</button>
               </div>
               <div
                 className={`card slider-item ${
