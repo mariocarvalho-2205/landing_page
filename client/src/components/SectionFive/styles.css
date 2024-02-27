@@ -35,15 +35,14 @@
   height: 98px;
   text-align: justify;
 }
+.sectionFive_text {
+ margin: 47px 0;
+}
 
 .sectionFive_text h2:nth-child(2) {
   font-weight: 300;
 }
 
-.sectionFive_text {
-  margin-top: 47px;
-  margin-bottom: 47px;
-}
 
 .sectionFive_text p {
   width: 630px;
@@ -63,7 +62,7 @@
   position: absolute;
 }
 
-.lineH img{
+.lineH img {
   max-width: 1250px;
 }
 
@@ -88,10 +87,9 @@
   justify-content: center;
   width: 158px;
   height: 158px;
-  background-image: linear-gradient(251deg, #C0B7E8 12.87%, #8176AF 89.33%);
+  background-image: linear-gradient(251deg, #c0b7e8 12.87%, #8176af 89.33%);
   border-radius: 50%;
-  box-shadow: -1px 1px 5px 22px rgba(0,0,0,0.35);
-  
+  box-shadow: -1px 1px 5px 22px rgba(0, 0, 0, 0.35);
 }
 
 .ball_Sec_Five h2 {
@@ -119,10 +117,19 @@
 }
 
 @media (max-width: 390px) {
+  .sectionFive_container {
+    margin: 0 -50px;
+    height: 950px;
+  }
+  .sectionFive_text {
+    margin-left: 100px;
+  }
+  .sectionFive_text h2 {
+    width: 300px;
+  }
   .sectionFive_top {
     width: 300px;
-    margin-top: -140px;
-    margin-left: 20px;
+    margin: 10px 0 10px 50px;
   }
 
   .h22 {
@@ -139,8 +146,9 @@
   }
 
   .line_balls {
+    margin-left: 50px;
+    width: 300px;
     margin-top: -120px;
-    margin-left: 465px;
   }
 
   .line_balls h2 {
@@ -148,13 +156,35 @@
     text-align: center;
   }
 
-  .lineH  {
+  .lineH {
     display: none;
   }
 
-  .ball_Sec_Five {
-    margin-left: 110px;
+  .sectionFive_Bottom {
+    text-align: center;
+    margin-left: 90px;
   }
 
+  .balls_Section_Five {
+    flex-wrap: wrap;
+  }
 
+  .ball_Sec_Five {
+    width: 80px;
+    height: 80px;
+    background-image: linear-gradient(251deg, #c0b7e8 12.87%, #8176af 89.33%);
+    border-radius: 50%;
+    box-shadow: -1px 1px 5px 8px rgba(0, 0, 0, 0.35);
+  }
+
+  .ball_Sec_Five h2 {
+    font-size: 32px;
+  }
+
+  .text_ball_Sec_Five {
+    width: 150px;
+  }
+  .text_ball_Sec_Five img {
+    display: none;
+  }
 }
