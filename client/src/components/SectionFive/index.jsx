@@ -1,4 +1,3 @@
-import React from 'react'
 import ArrowBig from "../../assets/arrowbig.svg";
 import LineH from "../../assets/line_section_five.svg"
 import './styles.css'
