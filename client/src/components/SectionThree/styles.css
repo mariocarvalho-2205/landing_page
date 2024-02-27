@@ -108,112 +108,47 @@
   margin-right: 30px;
 }
 
-
-.sectionThree_top>p {
-  display: none;
-}
-
-.sectionThree_text {
-  margin-left: 35px;
-  display: flex;
-  flex-direction: column;
-  gap: 36px;
-  align-items: center;
-}
-
-.h2_img {
-  margin-left: 5px;
-}
-
-.sectionThree_bottom {
-  margin-top: -110px;
-  margin-left: -30px;
-}
-
-  .card_container{
-    gap: 40px;
-  }
-
-.card_img {
-  margin-bottom: -30px;
-}
-.card_text {
-  margin-top: -30px;
-}
-
-.card_button button {
-  width: 250px;
-}
-
-.input_radio_sectionThree {
-  display: flex;
-}
-
-.active_input {
-  display: none;
-  z-index: 100;
-}
-
-.mobile {
-  display: block;
-}
-
-
-@media (max-width: 500px) {
+@media (max-width: 390px) {
   .sectionThree_container {
     margin-top: -100px;
     display: flex;
     flex-direction: column;
   }
 
-  .card_container {
+  .sectionThree_top>p {
+    display: none;
+  }
+
+  .sectionThree_text {
+    margin-left: 35px;
     display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+  }
+
+  .h2_img {
+    margin-left: 5px;
+  }
+
+  .sectionThree_bottom {
+    margin-top: -110px;
+    margin-left: -30px;
+  }
+
+  .card_container{
+    gap: 40px;
     flex-direction: column;
   }
 
-  .active {
-    display: block;
+  .card_img {
+    margin-bottom: -30px;
+  }
+  .card_text {
+    margin-top: -30px;
   }
 
-  .active_input {
-    display: flex;
+  .card_button button {
+    width: 250px;
   }
-
-  .slide_input {
-    display: flex;
-    flex-direction: column;
-    z-index: 20;
-  }
-
-  .slider{
-    overflow: hidden;
-
-}
-.slider > .slider-content{
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    transition: all 500ms ease;
-
-}
-
-.slider > .slider-content > .slider-item {
-    flex: 0 0 auto;
-    width: 100%;
-}
-
-.slider > input:nth-child(1):checked ~ .slider-content{
-    transform: translateX(0%);
-}
-
-.slider > input:nth-child(2):checked ~ .slider-content{
-    transform: translateX(-100%);
-}
-.slider > input:nth-child(3):checked ~ .slider-content{
-    transform: translateX(-200%);
-}
-
-.slider > input:nth-child(4):checked ~ .slider-content{
-    transform: translateX(-300%);
-}
 }
