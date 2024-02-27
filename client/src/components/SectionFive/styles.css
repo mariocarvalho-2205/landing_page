@@ -64,7 +64,6 @@
 }
 
 .lineH img{
-
   max-width: 1250px;
 }
 
@@ -77,6 +76,12 @@
   margin-bottom: 100px;
 }
 
+.overBall {
+  margin-top: 150px;
+  display: flex;
+  z-index: 1;
+}
+
 .ball_Sec_Five {
   display: flex;
   align-items: center;
@@ -86,13 +91,31 @@
   background-image: linear-gradient(251deg, #C0B7E8 12.87%, #8176AF 89.33%);
   border-radius: 50%;
   box-shadow: -1px 1px 5px 22px rgba(0,0,0,0.35);
-  z-index: 1;
   
 }
 
 .ball_Sec_Five h2 {
   color: #343045;
   font-size: 64px;
+}
+
+.text_ball_Sec_Five {
+  margin-top: 45px;
+  margin-left: -19%;
+  display: flex;
+  width: 230px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_ball_Sec_Five img {
+  width: 67px;
+  height: 67px;
+  margin-bottom: 28px;
+}
+
+.text_ball_Sec_Five h3 {
+  line-height: 1.5;
 }
 
 @media (max-width: 390px) {
