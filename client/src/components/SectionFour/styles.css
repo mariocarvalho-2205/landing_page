@@ -6,7 +6,7 @@
   align-items: center;
   margin: 0 auto;
   margin-top: 54px;
-  margin-left: -5px;
+  margin-left: 85px;
   flex-direction: column;
 }
 
@@ -73,6 +73,7 @@
 
   .sectionFour {
     width: 100%;
+    margin-left: 10px;
   }
 
   .sectionFour_content {
