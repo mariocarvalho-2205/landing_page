@@ -132,7 +132,6 @@
 
   .card_container{
     gap: 40px;
-    flex-direction: column;
   }
 
 .card_img {

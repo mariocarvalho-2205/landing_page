@@ -6,7 +6,6 @@
   align-items: center;
   margin: 0 auto;
   margin-top: 54px;
-  margin-left: -5px;
   flex-direction: column;
 }
 
@@ -71,17 +70,14 @@
 
 @media (max-width: 390px) {
 
-  .sectionFour {
-    width: 100%;
-  }
-
   .sectionFour_content {
+    margin-left: -855px;
     margin-top: -40px;
   }
 
   .sectionFour_content img {
-    width: 330px;
-    height: 158px;
+    width: 338px;
+    height: 163px;
   }
 
   .ball {
@@ -106,13 +102,8 @@
   }
 
   .sectionFour_bottom {
-    flex-direction:  column;
-    flex-wrap: wrap;
-    gap:0;
-  }
-
-  .sectionFour_bottom img {
-    width: 140px;
+    margin-left: 233px;
+    gap: 90px;
   }
 
 }
