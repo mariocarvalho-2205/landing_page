@@ -68,3 +68,10 @@ body::-webkit-scrollbar {
   position: fixed;
   bottom: 10px;
 }
+
+.button_small_tablet {
+  width: 80px;
+  height: 25px;
+  font-size: 8.2px;
+}
+

@@ -14,28 +14,46 @@ const Header = () => {
       <div className="logo_container">
         <img id="vector" src={Vector} alt="" />
         {/* <img id="logo-title" src={Logo} alt="" /> */}
-        <h1 id="logo-title">MM SYSTEM'S <br />& <br />SOLUTION</h1>
+        <h1 id="logo-title">
+          MM SYSTEM'S <br />& <br />
+          SOLUTION
+        </h1>
       </div>
       <div className="nav">
         <nav>
           <ul>
-            <li><a href="#section2">About</a></li>
-            <li><a href="#section3">Services</a></li>
-            <li><a href="#section4">Technologies</a></li>
-            <li><a href="#section5">How To</a></li>
+            <li>
+              <a href="#section2">About</a>
+            </li>
+            <li>
+              <a href="#section3">Services</a>
+            </li>
+            <li>
+              <a href="#section4">Technologies</a>
+            </li>
+            <li>
+              <a href="#section5">How To</a>
+            </li>
           </ul>
         </nav>
       </div>
       <div className="hamburguer">
-          <img src={Hamburguer} alt="" />
-        </div>
-      <div className="button_container">
-      <a href="#form"><button className="button button_small">Contact US</button></a>
-        <Link to="/login"><button className="button button_small" >Join Hydra</button></Link>
+        <img src={Hamburguer} alt="" />
+      </div>
+      <div className="button_container ">
+        <a href="#form">
+          <button className="button button_small button_small_tablet">
+            Contact US
+          </button>
+        </a>
+        <Link to="/login">
+          <button className="button button_small button_small_tablet">
+            Join Hydra
+          </button>
+        </Link>
         {/* <Buttom id="contact_buttom" title="Contact US" />
         <Buttom id="join_buttom" title="Join Hydra" /> */}
       </div>
-    
     </div>
   );
 };

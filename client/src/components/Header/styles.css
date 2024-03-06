@@ -7,7 +7,6 @@
 
 .logo_container {
   display: flex;
-  /* margin-right: 200px; */
   align-items: center;
 }
 
@@ -81,6 +80,43 @@ li a:hover {
   .button_container {
     display: none;
   }
+
+
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 12px 24px;
+  }
+
+  #vector {
+    width: 50px;
+    height: 50px;
+    padding-right: 8px;
+  }
+
+  #logo-title {
+    font-size: 12px;
+    margin-right: -10px;
+  }
+
+  ul {
+  gap: 16px;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+li {
+  font-size: 12px;
+}
+
+.button_container {
+  display: flex;
+}
+
+.button_small {
+  margin-left: 10px;
+}
 
 
 }
