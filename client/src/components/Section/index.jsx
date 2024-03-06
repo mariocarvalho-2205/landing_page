@@ -34,6 +34,7 @@ const Section = () => {
             <img src={Image} alt="" />
           </div>
         </div>
+        
         <div className="container_icons">
           <div className="icons">
             <div className="location_container icons_center">
