@@ -1,5 +1,6 @@
 import React from "react";
 import "../Section/styles.css";
+import "../../../src/index.css"
 import Image from "../../assets/woman.png";
 import Arrow from '../../assets/arrow-small-right.svg'
 import Location from '../../assets/Location-Icon.svg'
@@ -9,7 +10,7 @@ import Mail from "../../assets/mail.svg";
 const Section = () => {
   return (
     <>
-      <section id='section1'className="section_container">
+      <section id="section1" className="section_container">
         <div className="section_content">
           <div className="text_container">
             <h1>
@@ -23,7 +24,9 @@ const Section = () => {
               Lectus mauris eros in vitae .
             </p>
             <div className="button_container_section">
-              <button className="button button_big">BUILD YOUR WORLD</button>
+              <button className="button button_big button_big_tablet">
+                BUILD YOUR WORLD
+              </button>
               <img src={Arrow} alt="" />
             </div>
           </div>
@@ -40,7 +43,7 @@ const Section = () => {
                 <p>Union St, Seattle, WA 98101, United States</p>
               </div>
             </div>
-              <div className="line"></div>
+            <div className="line"></div>
             <div className="call_container icons_center">
               <img src={Phone} alt="" />
               <div className="icons_text">
@@ -48,7 +51,7 @@ const Section = () => {
                 <p>(110) 1111-1010</p>
               </div>
             </div>
-              <div className="line"></div>
+            <div className="line"></div>
             <div className="mail_container icons_center">
               <img src={Mail} alt="" />
               <div className="icons_text">

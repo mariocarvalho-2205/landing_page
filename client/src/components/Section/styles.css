@@ -161,3 +161,41 @@
   }
 
 }
+
+@media(max-width: 768px){
+  .section_container .section_content {
+  margin: 24px 24px;
+}
+
+.text_container {
+margin-right: 20px;
+}
+
+.text_container h1 {
+  font-size: 30px;
+}
+
+.img_container img {
+  width: 324px;
+  height: 312px;
+  border-radius: 100px 100px 100px 240px;
+  border: 6px solid rgba(0, 0, 0, 0.13);
+}
+
+.text_container p {
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.button_container_section button {
+  width: 148px;
+  height: 40px;
+  font-size: 10px;
+}
+
+.button_container_section img {
+  margin-left: 10px;
+  height: 56px;
+}
+
+}
